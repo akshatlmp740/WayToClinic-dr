@@ -198,6 +198,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div> 
     </header>
     <!-- header-end -->
+     <style>
+/* Hide by default (desktop) */
+.floating-whatsapp {
+  display: none;
+}
+
+/* Show only on mobile view */
+@media (max-width: 991px) {
+  .floating-whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    z-index: 9999;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+</style>
+
+    <a class="popup-with-form floating-whatsapp"
+    href="https://api.whatsapp.com/send?phone=919129882326&text=Hello%20I%20need%20appointment"
+    target="_blank">
+    <img src="https://img.icons8.com/color/24/000000/whatsapp.png" alt="WhatsApp Icon" width="24" height="24">
+    Make an Appointment
+  </a>
 <meta name="viewport" content="width=device-width, initial-scale=1">	
 
 	<script>
@@ -1376,7 +1409,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- welcome_docmed_area_end -->
 
 	  <!-- welcome_docmed_area_start -->
-    <h1 style="margin-top: 50px;">
+    <!-- <h1 style="margin-top: 50px;">
         <center style="color:#2f7f32;font-weight: bold; margin-bottom: 30px;">हमारे द्वारा सही हुए मरीजों के कुछ वीडियो... ☺️ </center>
     </h1>
     <div class="container" style="margin-bottom: 50px;">
@@ -1417,7 +1450,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- welcome_docmed_area_end -->
 
